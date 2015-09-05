@@ -80,5 +80,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         restartFinder.launch()
     }
 
+    @IBAction func ExitClicked(sender: NSMenuItem) {
+        exit(0)
+    }
+
 }
 

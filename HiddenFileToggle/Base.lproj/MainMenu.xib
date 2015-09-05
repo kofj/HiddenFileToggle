@@ -687,6 +687,9 @@
                 </menuItem>
                 <menuItem title="Exit" id="ZDJ-ky-eG5">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="ExitClicked:" target="Voe-Tx-rLC" id="LQ3-O8-mIJ"/>
+                    </connections>
                 </menuItem>
             </items>
         </menu>
