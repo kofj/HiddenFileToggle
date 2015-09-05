@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF333DF81B9ADA6A00F1402B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF333DF71B9ADA6A00F1402B /* AppDelegate.swift */; };
+		EF333DFA1B9ADA6A00F1402B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF333DF91B9ADA6A00F1402B /* Images.xcassets */; };
+		EF333DFD1B9ADA6A00F1402B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF333DFB1B9ADA6A00F1402B /* MainMenu.xib */; };
+		EF333E091B9ADA6A00F1402B /* HiddenFileToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF333E081B9ADA6A00F1402B /* HiddenFileToggleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF333E031B9ADA6A00F1402B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF333DEA1B9ADA6A00F1402B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF333DF11B9ADA6A00F1402B;
+			remoteInfo = HiddenFileToggle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF333DF21B9ADA6A00F1402B /* HiddenFileToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiddenFileToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF333DF61B9ADA6A00F1402B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF333DF71B9ADA6A00F1402B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF333DF91B9ADA6A00F1402B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF333DFC1B9ADA6A00F1402B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EF333E021B9ADA6A00F1402B /* HiddenFileToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenFileToggleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF333E071B9ADA6A00F1402B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF333E081B9ADA6A00F1402B /* HiddenFileToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenFileToggleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF333DEF1B9ADA6A00F1402B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF333DFF1B9ADA6A00F1402B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF333DE91B9ADA6A00F1402B = {
+			isa = PBXGroup;
+			children = (
+				EF333DF41B9ADA6A00F1402B /* HiddenFileToggle */,
+				EF333E051B9ADA6A00F1402B /* HiddenFileToggleTests */,
+				EF333DF31B9ADA6A00F1402B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF333DF31B9ADA6A00F1402B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF333DF21B9ADA6A00F1402B /* HiddenFileToggle.app */,
+				EF333E021B9ADA6A00F1402B /* HiddenFileToggleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF333DF41B9ADA6A00F1402B /* HiddenFileToggle */ = {
+			isa = PBXGroup;
+			children = (
+				EF333DF71B9ADA6A00F1402B /* AppDelegate.swift */,
+				EF333DF91B9ADA6A00F1402B /* Images.xcassets */,
+				EF333DFB1B9ADA6A00F1402B /* MainMenu.xib */,
+				EF333DF51B9ADA6A00F1402B /* Supporting Files */,
+			);
+			path = HiddenFileToggle;
+			sourceTree = "<group>";
+		};
+		EF333DF51B9ADA6A00F1402B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF333DF61B9ADA6A00F1402B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF333E051B9ADA6A00F1402B /* HiddenFileToggleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF333E081B9ADA6A00F1402B /* HiddenFileToggleTests.swift */,
+				EF333E061B9ADA6A00F1402B /* Supporting Files */,
+			);
+			path = HiddenFileToggleTests;
+			sourceTree = "<group>";
+		};
+		EF333E061B9ADA6A00F1402B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF333E071B9ADA6A00F1402B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF333DF11B9ADA6A00F1402B /* HiddenFileToggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF333E0C1B9ADA6A00F1402B /* Build configuration list for PBXNativeTarget "HiddenFileToggle" */;
+			buildPhases = (
+				EF333DEE1B9ADA6A00F1402B /* Sources */,
+				EF333DEF1B9ADA6A00F1402B /* Frameworks */,
+				EF333DF01B9ADA6A00F1402B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiddenFileToggle;
+			productName = HiddenFileToggle;
+			productReference = EF333DF21B9ADA6A00F1402B /* HiddenFileToggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF333E011B9ADA6A00F1402B /* HiddenFileToggleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF333E0F1B9ADA6A00F1402B /* Build configuration list for PBXNativeTarget "HiddenFileToggleTests" */;
+			buildPhases = (
+				EF333DFE1B9ADA6A00F1402B /* Sources */,
+				EF333DFF1B9ADA6A00F1402B /* Frameworks */,
+				EF333E001B9ADA6A00F1402B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF333E041B9ADA6A00F1402B /* PBXTargetDependency */,
+			);
+			name = HiddenFileToggleTests;
+			productName = HiddenFileToggleTests;
+			productReference = EF333E021B9ADA6A00F1402B /* HiddenFileToggleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF333DEA1B9ADA6A00F1402B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Frank Kung";
+				TargetAttributes = {
+					EF333DF11B9ADA6A00F1402B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EF333E011B9ADA6A00F1402B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EF333DF11B9ADA6A00F1402B;
+					};
+				};
+			};
+			buildConfigurationList = EF333DED1B9ADA6A00F1402B /* Build configuration list for PBXProject "HiddenFileToggle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF333DE91B9ADA6A00F1402B;
+			productRefGroup = EF333DF31B9ADA6A00F1402B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF333DF11B9ADA6A00F1402B /* HiddenFileToggle */,
+				EF333E011B9ADA6A00F1402B /* HiddenFileToggleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF333DF01B9ADA6A00F1402B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF333DFA1B9ADA6A00F1402B /* Images.xcassets in Resources */,
+				EF333DFD1B9ADA6A00F1402B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF333E001B9ADA6A00F1402B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF333DEE1B9ADA6A00F1402B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF333DF81B9ADA6A00F1402B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF333DFE1B9ADA6A00F1402B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF333E091B9ADA6A00F1402B /* HiddenFileToggleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF333E041B9ADA6A00F1402B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF333DF11B9ADA6A00F1402B /* HiddenFileToggle */;
+			targetProxy = EF333E031B9ADA6A00F1402B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF333DFB1B9ADA6A00F1402B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF333DFC1B9ADA6A00F1402B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF333E0A1B9ADA6A00F1402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF333E0B1B9ADA6A00F1402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF333E0D1B9ADA6A00F1402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HiddenFileToggle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF333E0E1B9ADA6A00F1402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HiddenFileToggle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF333E101B9ADA6A00F1402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HiddenFileToggleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiddenFileToggle.app/Contents/MacOS/HiddenFileToggle";
+			};
+			name = Debug;
+		};
+		EF333E111B9ADA6A00F1402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HiddenFileToggleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiddenFileToggle.app/Contents/MacOS/HiddenFileToggle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF333DED1B9ADA6A00F1402B /* Build configuration list for PBXProject "HiddenFileToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF333E0A1B9ADA6A00F1402B /* Debug */,
+				EF333E0B1B9ADA6A00F1402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF333E0C1B9ADA6A00F1402B /* Build configuration list for PBXNativeTarget "HiddenFileToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF333E0D1B9ADA6A00F1402B /* Debug */,
+				EF333E0E1B9ADA6A00F1402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF333E0F1B9ADA6A00F1402B /* Build configuration list for PBXNativeTarget "HiddenFileToggleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF333E101B9ADA6A00F1402B /* Debug */,
+				EF333E111B9ADA6A00F1402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF333DEA1B9ADA6A00F1402B /* Project object */;
+}
