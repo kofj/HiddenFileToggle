@@ -52,6 +52,33 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
+    @IBAction func showHiddenFileClicked(sender: NSMenuItem) {
+        showIcon.setTemplate(true)
+        hiddenIcon.setTemplate(true)
+
+        let task = NSTask()
+        task.launchPath = "/usr/bin/defaults"
+        
+        if (sender.state == NSOnState) {
+            sender.state = NSOffState
+            task.arguments = ["write", "com.apple.finder", "AppleShowAllFiles", "NO"]
+            statusItem.image = hiddenIcon
+        }
+        else {
+            sender.state = NSOnState
+            task.arguments = ["write", "com.apple.finder", "AppleShowAllFiles", "YES"]
+            statusItem.image = showIcon
+        }
+
+        task.launch()
+        task.waitUntilExit()
+
+        // restart finder
+        let restartFinder = NSTask()
+        restartFinder.launchPath = "/usr/bin/killall"
+        restartFinder.arguments = ["Finder"]
+        restartFinder.launch()
+    }
 
 }
 

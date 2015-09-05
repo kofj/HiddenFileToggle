@@ -681,6 +681,9 @@
             <items>
                 <menuItem title="Show Hidden File" id="9Mx-Gg-f0o">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showHiddenFileClicked:" target="Voe-Tx-rLC" id="g2e-DW-2cQ"/>
+                    </connections>
                 </menuItem>
                 <menuItem title="Exit" id="ZDJ-ky-eG5">
                     <modifierMask key="keyEquivalentModifierMask"/>
