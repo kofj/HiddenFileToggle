@@ -25,7 +25,26 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         hiddenIcon.setTemplate(true)
         // add status menu
         statusItem.menu = statusMenu
-        statusItem.image = showIcon
+
+        // read finder AppleShowAllFiles field value
+        let task = NSTask()
+        task.launchPath = "/bin/bash"
+        task.arguments = ["-c", "/usr/bin/defaults read com.apple.finder AppleShowAllFiles"]
+
+        let pipe: NSPipe = NSPipe()
+        task.standardOutput = pipe
+        task.launch()
+        task.waitUntilExit()
+
+        let read = pipe.fileHandleForReading
+        let dataRead = read.readDataToEndOfFile()
+        let stringRead = NSString(data: dataRead, encoding: NSUTF8StringEncoding)
+
+        if ( (stringRead as? String) == "YES" ) {
+            statusItem.image = showIcon
+        } else {
+            statusItem.image = hiddenIcon
+        }
 
     }
 
